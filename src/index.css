@@ -904,4 +904,8 @@ a {
     gap: 2rem;
   }
   .footer-nav a { background: none; }
+  
+  .horizontal-scroll-card {
+    flex: 0 0 320px;
+  }
 }

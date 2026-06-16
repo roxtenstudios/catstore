@@ -16,7 +16,7 @@ export default function Home() {
       
       {/* HEADER BAR & MENU */}
       <header className="header-bar">
-        <div className="header-logo" style={{color: isMenuOpen ? '#000' : 'var(--text-primary)'}}>CAT CARE</div>
+        <div className="header-logo" style={{color: isMenuOpen ? '#000' : 'var(--text-primary)'}}>HPC</div>
         <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)} style={{color: isMenuOpen ? '#000' : 'var(--text-secondary)'}}>
           {isMenuOpen ? (
             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
@@ -41,7 +41,7 @@ export default function Home() {
           <div className="hero-badge">Available Now!</div>
           
           <h1 className="hero-title">
-            PURRFECT<br/>FRIENDS
+            HYDERABAD<br/>PERSIAN CATS
           </h1>
           
           <p className="hero-subtitle">
@@ -303,7 +303,7 @@ export default function Home() {
             <a href="#contact">Contact</a>
           </div>
           <p className="copyright">
-            © 2026 Cat Care & Co. All rights reserved.
+            © 2026 Hyderabad Persian Cats. All rights reserved.
           </p>
         </div>
       </footer>
