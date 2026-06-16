@@ -1,0 +1,80 @@
+export const cats = [
+  {
+    id: "cat-1",
+    name: "SNOWBALL",
+    color: "White",
+    personality: "The Cuddle Bug",
+    labelColor: "var(--accent-yellow)",
+    borderColor: "var(--text-secondary)",
+    image: "/images/persian_cat_hero_1781632106586.png",
+    status: "Available",
+    price: 1200,
+    featured: true,
+    description: "Snowball is an absolute sweetheart. She loves to curl up on your lap and purr for hours. A perfect companion for quiet evenings."
+  },
+  {
+    id: "cat-2",
+    name: "PUMPKIN",
+    color: "Ginger",
+    personality: "The Explorer",
+    labelColor: "var(--accent-blue)",
+    borderColor: "var(--accent-blue)",
+    image: "/images/persian_cat_card1_1781632116193.png",
+    status: "Available",
+    price: 1500,
+    featured: true,
+    description: "Pumpkin is a curious and playful ginger kitten. He loves investigating new toys and chasing laser pointers around the house."
+  },
+  {
+    id: "cat-3",
+    name: "SMOKEY",
+    color: "Grey",
+    personality: "The Sleepyhead",
+    labelColor: "#8bc34a",
+    borderColor: "var(--accent-yellow)",
+    image: "/images/persian_cat_card2_1781632132566.png",
+    status: "Reserved",
+    price: 1300,
+    featured: false,
+    description: "Smokey is a calm and gentle grey Persian. He spends most of his day napping in sunny spots. He's very docile and sweet."
+  },
+  {
+    id: "cat-4",
+    name: "LUNA",
+    color: "White",
+    personality: "The Princess",
+    labelColor: "var(--accent-yellow)",
+    borderColor: "var(--text-secondary)",
+    image: "/images/hero_cat_center_1781632442304.png",
+    status: "Available",
+    price: 1800,
+    featured: false,
+    description: "Luna is royalty and she knows it. With her pristine white coat and bright eyes, she loves being pampered and groomed."
+  },
+  {
+    id: "cat-5",
+    name: "GARFIELD",
+    color: "Ginger",
+    personality: "The Foodie",
+    labelColor: "var(--accent-blue)",
+    borderColor: "var(--accent-blue)",
+    image: "/images/hero_cat_left_1781632453260.png",
+    status: "Available",
+    price: 1400,
+    featured: false,
+    description: "Garfield is always first in line for meals. He is extremely affectionate, especially when you are holding a bag of treats."
+  },
+  {
+    id: "cat-6",
+    name: "ASH",
+    color: "Grey",
+    personality: "The Ninja",
+    labelColor: "#8bc34a",
+    borderColor: "var(--accent-yellow)",
+    image: "/images/hero_cat_right_1781632465440.png",
+    status: "Available",
+    price: 1350,
+    featured: false,
+    description: "Ash is energetic and sneaky. He loves to playfully pounce from behind couches. Great for active families!"
+  }
+];
