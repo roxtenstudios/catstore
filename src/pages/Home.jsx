@@ -8,7 +8,7 @@ const heroCatLeft = "/images/hero_cat_left_1781632453260.png";
 const heroCatRight = "/images/hero_cat_right_1781632465440.png";
 
 export default function Home() {
-  const featuredCats = cats.filter(c => c.featured);
+  const featuredCats = cats.slice(0, 6);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
